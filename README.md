@@ -27,7 +27,7 @@ with the Lambda function to an Amazon Connect instance
 Create new users, new queues, and modify a routing profile.
 The function performs database queries and updates to maintain a record of customer interactions.
 
- #How to test
+ # How to test
  Simply dial this number and follow each play prompts 866-573-2012
 
  
