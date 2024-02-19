@@ -1,5 +1,5 @@
-# This Lambda function tracks customer calls and updating their records in DynamoDB,
-# Processes incoming events triggered by Amazon Connect,extracts relevant information, 
+# This Lambda function tracks customer calls and updating their records in DynamoDB
+# Processes incoming events triggered by Amazon Connect,extracts relevant information 
 # queries DynamoDB for customer data, updates records, and generates appropriate responses.
 
 
