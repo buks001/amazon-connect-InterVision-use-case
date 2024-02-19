@@ -4,3 +4,9 @@ It guides users through different options and directs them to a specific support
  
 
 # Prerequisites
+It is assumed that you understand the use of the services below and you have the following prerequisites:
+
+An AWS account with both management console and programmatic administrator access.
+An existing Amazon Connect instance.
+Amazon Connect Customer Profiles enabled on Connect Instance.
+Amazon Connect Cases enabled on Connect Instanc
