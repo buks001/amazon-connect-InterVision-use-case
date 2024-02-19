@@ -9,4 +9,7 @@ It is assumed that you understand the use of the services below and you have the
 1. An AWS account with both management console and programmatic administrator access.
 2. An existing Amazon Connect instance.
 3. Amazon Connect Customer Profiles enabled on Connect Instance.
-4. Amazon Connect Cases enabled on Connect Instanc
+4. Amazon Connect Cases enabled on Connect Instance
+
+# what the code does
+https://static.us-east-1.prod.workshops.aws/public/d12ec4e5-c408-4b29-be70-a41e141d2e13/static/files/AWS_Demo_Flow_HD.json
