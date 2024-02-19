@@ -14,14 +14,14 @@ It is assumed that you understand the use of the services below and you have the
 # Helpdesk system contact center 
 (InterVision Use Case/AWS_Demo_Flow_HD.json)
 {InterVision Use Case/AWS_Demo_Flow_Main.json}
-(InterVision Use Case/HelpDesk-Lex_v2_Bot.zip) 
+(InterVision Use Case/HelpDesk-Lex_v2_Bot.zip) InterVision Use Case/Contact flow use case 1/HelpDesk-Lex_v2_Bot.zip
 This flow creates a Help Desk Interactive Voice Response (IVR) application that uses natural language to identify phrases spoken by a caller and perform the correct action.
 
 # Second use case
 # Personilized contact contact center
 (InterVision Use Case/contactflow/Intervision demo flow usecase)
 (InterVision Use Case/contactflow/lamda_db_personalized_flow_intervision)
-(InterVision Use Case/Intervisionbot-DRAFT-POII7PBLFK-LexJson.zip)
+(InterVision Use Case/Intervisionbot-DRAFT-POII7PBLFK-LexJson.zip) InterVision Use Case/Contact flow use case 2/Intervisionbot-DRAFT-POII7PBLFK-LexJson.zip
 This flow Creates serverless application with AWS Lambda and Amazon DynamoDB
 with the Lambda function to an Amazon Connect instance
 Create new users, new queues, and modify a routing profile.
