@@ -17,7 +17,7 @@ It is assumed that you understand the use of the services below and you have the
 (InterVision Use Case/HelpDesk-Lex_v2_Bot.zip) https://github.com/buks001/amazon-connect-InterVision-use-case/blob/main/InterVision%20Use%20Case/HelpDesk-Lex_v2_Bot.zip
 This flow creates a Help Desk Interactive Voice Response (IVR) application that uses natural language to identify phrases spoken by a caller and perform the correct action.
 
-# second use case
+# Second use case
 # personilized contact contact center
 (InterVision Use Case/contactflow/Intervision demo flow usecase)
 (InterVision Use Case/contactflow/lamda_db_personalized_flow_intervision)
