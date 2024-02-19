@@ -6,10 +6,13 @@ It guides users through different options and directs them to a specific support
 # Prerequisites
 It is assumed that you understand the use of the services below and you have the following prerequisites:
 
-1. An AWS account with both management console and programmatic administrator access.
+1. An AWS account with management console.
 2. An existing Amazon Connect instance.
 3. Amazon Connect Customer Profiles enabled on Connect Instance.
-4. Amazon Connect Cases enabled on Connect Instance
 
-# what the code does
-https://static.us-east-1.prod.workshops.aws/public/d12ec4e5-c408-4b29-be70-a41e141d2e13/static/files/AWS_Demo_Flow_HD.json
+# First use case 
+Helpdesk system contact center 
+InterVision Use Case/AWS_Demo_Flow_HD.json 
+InterVision Use Case/AWS_Demo_Flow_Main.json 
+This flow creates a Help Desk Interactive Voice Response (IVR) application that uses natural language to identify phrases spoken by a caller and perform the correct action.
+
