@@ -23,19 +23,15 @@ e.g for intervision use case, to direct your call appropraitely, simply say talk
    
 [Intervisionbot-DRAFT-POII7PBLFK-LexJson.zip](https://github.com/buks001/amazon-connect-InterVision-use-case/files/14339580/Intervisionbot-DRAFT-POII7PBLFK-LexJson.zip)
 
-[Uploading Intervision demo flow usecase…]()
+
+
 
 
 # Second use case
 # Personalized contact contact center
-This use case uses serverless architecture with lambda and dynamodb integration with connect
-(InterVision Use Case/contactflow/Intervision demo flow usecase)
-(InterVision Use Case/contactflow/lamda_db_personalized_flow_intervision)
-
-This flow Creates serverless application with AWS Lambda and Amazon DynamoDB
-with the Lambda function to an Amazon Connect instance
-it Creates new users, new queues, and modify a routing profile.
-The function performs database queries and updates to maintain a record of customer interactions to give a personlizedexperience to the caller.
+This use case uses serverless architecture with lambda and dynamodb integration with Amazon connect.
+It performs database queries and updates to maintain a record of customer interactions to give a personlized experience to the caller.
+e.g for interVision use-case, to direct your call agent confirms your last call Date and time, and if its your first call, agent recognizes its your first call and input your information so that when you call again it is already registered in the system. 
 
  [Screen Shot 2024-02-19 at 9 23 08 PM](https://github.com/buks001/amazon-connect-InterVision-use-case/assets/63078734/08f4e9a4-f4a8-4d6f-a7a8-f741551cb17e)
 
