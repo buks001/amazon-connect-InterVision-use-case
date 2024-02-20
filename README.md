@@ -12,11 +12,17 @@ It is assumed that you understand the use of the services below and you have the
 
 # First use case 
 # Helpdesk system contact center 
-(InterVision Use Case/AWS_Demo_Flow_HD.json)
-{InterVision Use Case/AWS_Demo_Flow_Main.json}
-(InterVision Use Case/HelpDesk-Lex_v2_Bot.zip) https://github.com/buks001/amazon-connect-InterVision-use-case/blob/main/InterVision%20Use%20Case/Contact%20flow%20use%20case%201/HelpDesk-Lex_v2_Bot.zip
 This flow creates a Help Desk Interactive Voice Response (IVR) application that uses natural language to identify phrases spoken by a caller and perform the correct action.
 e.g for intervision use case, to direct your call appropraitely, simply say talk to a consultant after pressing 1.
+
+[Intervisionbot-DRAFT-POII7PBLFK-LexJson.zip](https://github.com/buks001/amazon-connect-InterVision-use-case/files/14339561/Intervisionbot-DRAFT-POII7PBLFK-LexJson.zip)
+
+
+# STEPS
+1. Import a Lex bot
+2. Add the Amazon Lex bot to an Amazon Connect instance
+3. Import a contact flow
+4. Test your Lex IVR
 
 # Second use case
 # Personalized contact contact center
