@@ -16,9 +16,9 @@ This flow creates a Help Desk Interactive Voice Response (IVR) application that 
 e.g for intervision use case, to direct your call appropraitely, simply say "talk to a consultant after pressing 1".
 
 # Steps
-1. Import a Lex bot
+1. Import the Lex bot zip file in the folder
 2. Add the Amazon Lex bot to an Amazon Connect instance
-3. Import a contact flow
+3. Import the contact flow named "intervison demo flow use case"
 4. Test your Lex IVR
 
 [Intervisionbot-DRAFT-POII7PBLFK-LexJson.zip](https://github.com/buks001/amazon-connect-InterVision-use-case/files/14339580/Intervisionbot-DRAFT-POII7PBLFK-LexJson.zip)
@@ -37,10 +37,10 @@ It performs database queries and updates to maintain a record of customer intera
 e.g for interVision use-case, to direct your call agent confirms your last call Date and time, and if its your first call, agent recognizes its your first call and input your information so that when you call again it is already registered in the system. 
 
 # Steps
-1. Create serverless application with AWS Lambda and Amazon DynamoDB
+1. Create serverless application with AWS Lambda and Amazon DynamoDB "lamda function.py code in the repo"
 3. Add the Lambda function to an Amazon Connect instance
 4. Create new users, new queues, and modify a routing profile
-5. Import a contact flow
+5. Import the contact flow named "lambda db personalized flow intervision"
 6. Place a test call, update the records database, and place a second test call
 
    
