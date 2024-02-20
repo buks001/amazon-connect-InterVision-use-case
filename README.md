@@ -7,7 +7,7 @@ It guides users through different options and directs them to a specific support
 It is assumed that you understand the use of the services below and you have the following prerequisites:
 
 1. An AWS account with management console.
-2. An existing Amazon Connect instance.
+2. An existing or create a new Amazon Connect instance.
 3. Amazon Connect Customer Profiles enabled on Connect Instance.
 
 # First use case 
