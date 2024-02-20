@@ -34,7 +34,7 @@ To direct your call appropriately, "simply say talk to a consultant after pressi
 # Personalized contact center
 This use case uses serverless architecture with lambda and dynamodb integration with Amazon connect.
 It performs database queries and updates to maintain a record of customer interactions to give a personlized experience to the caller.
-e.g for interVision use-case, to direct your call agent confirms your last call Date and time, and if its your first call, agent recognizes its your first call and input your information so that when you call again it is already registered in the system. 
+e.g for interVision use-case, to direct your call agent confirms your last call date, and if its your first call, agent recognizes its your first call and input your information so that when you call again it is already registered in the system. 
 
 # Steps
 1. Create serverless application with AWS Lambda and Amazon DynamoDB "lamda function.py code in the repo"
