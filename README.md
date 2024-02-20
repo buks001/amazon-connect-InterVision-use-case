@@ -32,7 +32,7 @@ The function performs database queries and updates to maintain a record of custo
  # Use case 1: 
  To direct your call appropraitely, "simply say talk to a consultant after pressing 1 on your keypad"
  # Use case 2: 
- Gives information on when last you call and directs you to an agent.
+ when you press 2, it gives information on when last you call and directs you to an agent.
  
  Simply dial this number and follow each play prompts # 866-573-2012
 
