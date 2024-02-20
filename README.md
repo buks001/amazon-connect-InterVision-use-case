@@ -48,7 +48,7 @@ Use case 2:
 when you press 2, for a new caller it will automatically update the record in the database and give information on the date and directs you to an agent
 when you place a second call, it already updates your information on when last you call and directs you to an agent.
 
- # NOTE
+ # Note
 For the above use cases, Simply dial this number and follow each play prompts to confirm the usage. # 866-573-2012
 
  
