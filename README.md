@@ -15,16 +15,15 @@ It is assumed that you understand the use of the services below and you have the
 This flow creates a Help Desk Interactive Voice Response (IVR) application that uses natural language to identify phrases spoken by a caller and perform the correct action.
 e.g for intervision use case, to direct your call appropraitely, simply say talk to a consultant after pressing 1.
 
-# STEPS
+# Steps
 1. Import a Lex bot
 2. Add the Amazon Lex bot to an Amazon Connect instance
 3. Import a contact flow
 4. Test your Lex IVR
 
  # How to test
-
- # Use case 1: 
- To direct your call appropriately, "simply say talk to a consultant after pressing 1 on your keypad"
+Use case 1: 
+To direct your call appropriately, "simply say talk to a consultant after pressing 1 on your keypad"
    
 [Intervisionbot-DRAFT-POII7PBLFK-LexJson.zip](https://github.com/buks001/amazon-connect-InterVision-use-case/files/14339580/Intervisionbot-DRAFT-POII7PBLFK-LexJson.zip)
 
@@ -50,11 +49,11 @@ e.g for interVision use-case, to direct your call agent confirms your last call 
 
 
 
- # How to test
- # Use case 2: 
+# How to test
+Use case 2: 
 when you press 2, for a new caller it will automatically update the record in the database and gives information on the date and directs you to an agent
 when you place a second call, it already updates your information on when last you call and directs you to an agent.
  
- Simply dial this number and follow each play prompts to confirm the usage. # 866-573-2012
+Simply dial this number and follow each play prompts to confirm the usage. # 866-573-2012
 
  
