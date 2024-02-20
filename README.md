@@ -20,13 +20,14 @@ e.g for intervision use case, to direct your call appropraitely, simply say talk
 
 # Second use case
 # Personalized contact contact center
+This use case uses serverless architecture with lambda and dynamodb integration with connect
 (InterVision Use Case/contactflow/Intervision demo flow usecase)
 (InterVision Use Case/contactflow/lamda_db_personalized_flow_intervision)
-(InterVision Use Case/Intervisionbot-DRAFT-POII7PBLFK-LexJson.zip) https://github.com/buks001/amazon-connect-InterVision-use-case/blob/main/InterVision%20Use%20Case/Contact%20flow%20use%20case%202/Intervisionbot-DRAFT-POII7PBLFK-LexJson.zip
+
 This flow Creates serverless application with AWS Lambda and Amazon DynamoDB
 with the Lambda function to an Amazon Connect instance
 it Creates new users, new queues, and modify a routing profile.
-The function performs database queries and updates to maintain a record of customer interactions.
+The function performs database queries and updates to maintain a record of customer interactions to give a personlizedexperience to the caller.
 
  [Screen Shot 2024-02-19 at 9 23 08 PM](https://github.com/buks001/amazon-connect-InterVision-use-case/assets/63078734/08f4e9a4-f4a8-4d6f-a7a8-f741551cb17e)
 
