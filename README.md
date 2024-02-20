@@ -13,7 +13,7 @@ It is assumed that you understand the use of the services below and you have the
 # First use case 
 # Helpdesk system contact center 
 This flow creates a Help Desk Interactive Voice Response (IVR) application that uses natural language to identify phrases spoken by a caller and perform the correct action.
-e.g for intervision use case, to direct your call appropraitely, simply say talk to a consultant after pressing 1.
+e.g for intervision use case, to direct your call appropraitely, simply say "talk to a consultant after pressing 1".
 
 # Steps
 1. Import a Lex bot
@@ -53,7 +53,7 @@ e.g for interVision use-case, to direct your call agent confirms your last call 
 
 # How to test
 Use case 2: 
-when you press 2, for a new caller it will automatically update the record in the database and gives information on the date and directs you to an agent
+when you press 2, for a new caller it will automatically update the record in the database and give information on the date and directs you to an agent
 when you place a second call, it already updates your information on when last you call and directs you to an agent.
  
 Simply dial this number and follow each play prompts to confirm the usage. # 866-573-2012
