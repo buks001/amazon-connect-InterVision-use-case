@@ -21,11 +21,13 @@ e.g for intervision use case, to direct your call appropraitely, simply say talk
 3. Import a contact flow
 4. Test your Lex IVR
 
+[Intervisionbot-DRAFT-POII7PBLFK-LexJson.zip](https://github.com/buks001/amazon-connect-InterVision-use-case/files/14339580/Intervisionbot-DRAFT-POII7PBLFK-LexJson.zip)
+
  # How to test
 Use case 1: 
 To direct your call appropriately, "simply say talk to a consultant after pressing 1 on your keypad"
    
-[Intervisionbot-DRAFT-POII7PBLFK-LexJson.zip](https://github.com/buks001/amazon-connect-InterVision-use-case/files/14339580/Intervisionbot-DRAFT-POII7PBLFK-LexJson.zip)
+
 
 
 # Second use case
