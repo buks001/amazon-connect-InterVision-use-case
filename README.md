@@ -28,7 +28,14 @@ with the Lambda function to an Amazon Connect instance
 it Creates new users, new queues, and modify a routing profile.
 The function performs database queries and updates to maintain a record of customer interactions.
 
+ [Screen Shot 2024-02-19 at 9 23 08 PM](https://github.com/buks001/amazon-connect-InterVision-use-case/assets/63078734/08f4e9a4-f4a8-4d6f-a7a8-f741551cb17e)
+
+ [Screen Shot 2024-02-19 at 9 20 32 PM](https://github.com/buks001/amazon-connect-InterVision-use-case/assets/63078734/978d2c2d-c765-4692-8745-daf999ec66b9)
+
+
+
  # How to test
+
  # Use case 1: 
  To direct your call appropriately, "simply say talk to a consultant after pressing 1 on your keypad"
  # Use case 2: 
