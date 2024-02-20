@@ -29,8 +29,8 @@ it Creates new users, new queues, and modify a routing profile.
 The function performs database queries and updates to maintain a record of customer interactions.
 
  # How to test
- Use case 1: To direct your call appropraitely, "simply say talk to a consultant after pressing 1 on your keypad"
- Use case 2: Gives information on when last you call and directs you to an agent
+ # Use case 1: To direct your call appropraitely, "simply say talk to a consultant after pressing 1 on your keypad"
+ # Use case 2: Gives information on when last you call and directs you to an agent
  Simply dial this number and follow each play prompts 866-573-2012
 
  
