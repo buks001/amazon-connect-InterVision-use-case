@@ -28,8 +28,6 @@ Use case 1:
 To direct your call appropriately, "simply say talk to a consultant after pressing 1 on your keypad"
    
 
-
-
 # Second use case
 # Personalized contact center
 This use case uses serverless architecture with lambda and dynamodb integration with Amazon connect.
@@ -45,17 +43,12 @@ e.g for interVision use-case, to direct your call agent confirms your last call 
 
    
 
- [Screen Shot 2024-02-19 at 9 23 08 PM](https://github.com/buks001/amazon-connect-InterVision-use-case/assets/63078734/08f4e9a4-f4a8-4d6f-a7a8-f741551cb17e)
-
- [Screen Shot 2024-02-19 at 9 20 32 PM](https://github.com/buks001/amazon-connect-InterVision-use-case/assets/63078734/978d2c2d-c765-4692-8745-daf999ec66b9)
-
-
-
 # How to test
 Use case 2: 
 when you press 2, for a new caller it will automatically update the record in the database and give information on the date and directs you to an agent
 when you place a second call, it already updates your information on when last you call and directs you to an agent.
- 
-Simply dial this number and follow each play prompts to confirm the usage. # 866-573-2012
+
+ # NOTE
+For the above use cases, Simply dial this number and follow each play prompts to confirm the usage. # 866-573-2012
 
  
