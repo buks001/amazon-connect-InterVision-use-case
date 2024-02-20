@@ -20,18 +20,29 @@ e.g for intervision use case, to direct your call appropraitely, simply say talk
 2. Add the Amazon Lex bot to an Amazon Connect instance
 3. Import a contact flow
 4. Test your Lex IVR
+
+ # How to test
+
+ # Use case 1: 
+ To direct your call appropriately, "simply say talk to a consultant after pressing 1 on your keypad"
    
 [Intervisionbot-DRAFT-POII7PBLFK-LexJson.zip](https://github.com/buks001/amazon-connect-InterVision-use-case/files/14339580/Intervisionbot-DRAFT-POII7PBLFK-LexJson.zip)
 
 
-
-
-
 # Second use case
-# Personalized contact contact center
+# Personalized contact center
 This use case uses serverless architecture with lambda and dynamodb integration with Amazon connect.
 It performs database queries and updates to maintain a record of customer interactions to give a personlized experience to the caller.
 e.g for interVision use-case, to direct your call agent confirms your last call Date and time, and if its your first call, agent recognizes its your first call and input your information so that when you call again it is already registered in the system. 
+
+# Steps
+1. Create serverless application with AWS Lambda and Amazon DynamoDB
+3. Add the Lambda function to an Amazon Connect instance
+4. Create new users, new queues, and modify a routing profile
+5. Import a contact flow
+6. Place a test call, update the records database, and place a second test call
+
+   
 
  [Screen Shot 2024-02-19 at 9 23 08 PM](https://github.com/buks001/amazon-connect-InterVision-use-case/assets/63078734/08f4e9a4-f4a8-4d6f-a7a8-f741551cb17e)
 
@@ -40,12 +51,10 @@ e.g for interVision use-case, to direct your call agent confirms your last call 
 
 
  # How to test
-
- # Use case 1: 
- To direct your call appropriately, "simply say talk to a consultant after pressing 1 on your keypad"
  # Use case 2: 
- when you press 2, it gives information on when last you call and directs you to an agent.
+when you press 2, for a new caller it will automatically update the record in the database and gives information on the date and directs you to an agent
+when you place a second call, it already updates your information on when last you call and directs you to an agent.
  
- Simply dial this number and follow each play prompts # 866-573-2012
+ Simply dial this number and follow each play prompts to confirm the usage. # 866-573-2012
 
  
