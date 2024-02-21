@@ -1,0 +1,110 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Resources:
+  # AWS Connect Instance
+  MyConnectInstance:
+    Type: AWS::Connect::Instance
+    Properties:
+      Attributes:
+        InboundCalls: true
+        OutboundCalls: true
+      IdentityManagementType: "CONNECT_MANAGED"
+      InstanceAlias: "buks-intervision"
+
+  # AWS Connect Hours of Operation
+  MyOperationHours:
+    Type: AWS::Connect::HoursOfOperation
+    Properties:
+      Config:
+      # You can configure it as you want
+        - Day: MONDAY
+          EndTime:
+            Hours: 8
+            Minutes: 0
+          StartTime:
+            Hours: 8
+            Minutes: 0
+      Description: "my ops hrs"
+      InstanceArn: !GetAtt MyConnectInstance.Arn
+      Name: "my-hours"
+      TimeZone: "Pacific/Midway" # Set your prefered timezone
+
+  # AWS Connect Queue
+  MyQueue:
+    Type: AWS::Connect::Queue
+    Properties:
+      Description: "hold test"
+      HoursOfOperationArn: !GetAtt MyOperationHours.HoursOfOperationArn
+      InstanceArn: !GetAtt MyConnectInstance.Arn
+      MaxContacts: 10
+      Name: "my-queue"
+
+  # AWS Connect Routing Profile
+  MyRoutingProfile:
+    Type: AWS::Connect::RoutingProfile
+    Properties:
+      DefaultOutboundQueueArn: !GetAtt MyQueue.QueueArn
+      Description: "Test Profile"
+      InstanceArn: !GetAtt MyConnectInstance.Arn
+      Name: "my-routing-profile"
+      MediaConcurrencies:
+        - Channel: "VOICE"
+          Concurrency: 1
+
+  # AWS Connect Security Profile with some specific permissions
+  MySecurityProfile:
+    Type: AWS::Connect::SecurityProfile
+    Properties:
+      InstanceArn: !GetAtt MyConnectInstance.Arn
+      SecurityProfileName: "my-security-profile"
+      Permissions:
+        - Prompts.Create
+        - Prompts.Delete
+        - Prompts.Edit
+        - Prompts.View
+        - ContactFlows.Create
+        - ContactFlows.Delete
+        - ContactFlows.Edit
+        - ContactFlows.Publish
+        - ContactFlows.View
+        - ContactFlowModules.Create
+        - ContactFlowModules.Delete
+        - ContactFlowModules.Edit
+        - ContactFlowModules.Publish
+        - ContactFlowModules.View
+        - PhoneNumbers.Claim
+        - PhoneNumbers.Edit
+        - PhoneNumbers.Release
+        - PhoneNumbers.View
+        - ChatTestMode
+        - Views.View
+        - RoutingPolicies.Create
+        #  Add more permissions as needed
+
+  # AWS Connect User
+  MyConnectInstanceUser:
+    Type: AWS::Connect::User
+    Properties:
+      InstanceArn: !GetAtt MyConnectInstance.Arn
+      IdentityInfo:
+        Email: "bukunmiogunrinde@gmail.com" # Put user's email
+        FirstName: "test"
+        LastName: "user"
+        Mobile: "+19293607773" # Put user's mobile with country-code
+      Username: "buks1"
+      Password: "Aa123456"
+      PhoneConfig:
+        PhoneType: "SOFT_PHONE"
+      RoutingProfileArn: !GetAtt MyRoutingProfile.RoutingProfileArn
+      SecurityProfileArns:
+        - !GetAtt MySecurityProfile.SecurityProfileArn
+
+  # AWS Connect Phone Number
+  MyPhoneNumber:
+    Type: AWS::Connect::PhoneNumber
+    Properties:
+      CountryCode: "US"
+      Description: "my-number"
+      Prefix: "+1"
+      TargetArn: !GetAtt MyConnectInstance.Arn
+      Type: TOLL_FREE
+
