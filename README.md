@@ -8,8 +8,7 @@ It is assumed that you understand the use of the services below and you have the
 
 1. An AWS account with management console.
 2. An existing or create a new Amazon Connect instance.
-<img width="947" alt="Capture" src="https://github.com/buks001/amazon-connect-InterVision-use-case/assets/63078734/cad2bb85-4d27-4ded-89f8-48ca6dabb67f"> 
-3. Amazon Connect Customer Profiles enabled on Connect Instance.
+file path "amazon-connect-InterVision-use-case/cft/interVision-connect.yml"
 
 # First use case 
 # Helpdesk system contact center 
